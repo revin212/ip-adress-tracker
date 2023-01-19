@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+#map{
+    height: 80vh;
+}
+
+.result-label{
+    @apply text-[10px] font-medium uppercase tracking-widest text-main-dark-gray   
+}
+
+.result-value{
+    @apply font-medium text-xl
+}
+
+header{
+    background-image: url('/images/pattern-bg.png');
+    background-repeat: no-repeat;
+    background-position: 70% bottom;
+    background-size: cover;
+}
