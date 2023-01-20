@@ -20,7 +20,7 @@
     crossorigin=""></script>
 
   <link rel="stylesheet" type="text/css" href="./styles/index.css">
-  <script type="module" src="./index.js"></script>
+  <script defer src="./index.js"></script>
   <title>Frontend Mentor | IP Address Tracker</title>
 </head>
 <body class="font-main-font">
@@ -38,8 +38,8 @@
       </div>
     </form>
     <div class="tracker-result-wrapper relative w-full lg:w-[1000px]">
-      <div class="tracker-result z-[2000] left-0 right-0 bottom-[-21rem] lg:bottom-[-10rem] absolute flex flex-col 
-      lg:flex-row lg:gap-[8rem] items-center text-center lg:text-left w-full gap-[2rem] rounded-xl bg-white p-[1.5rem] overflow-hidden">
+      <div class="tracker-result z-[2000] absolute left-0 right-0 bottom-[-21rem] lg:bottom-[-10rem] flex flex-col gap-[2rem]
+      lg:flex-row lg:gap-[8rem] items-center text-center lg:text-left w-full rounded-xl bg-white p-[1.5rem] overflow-hidden">
         <div class="ip-address">
           <p class="result-label">IP Address</p>
           <h2 id="ip-address" class="result-value">192.212.174.101</h2>
